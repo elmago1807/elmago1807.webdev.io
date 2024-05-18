@@ -29,7 +29,7 @@ main{
     padding-top: 10px;
     padding-bottom: 15px;
     border-bottom: 5px solid black;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(23,23,23);
     font-family: a;
     color: white;
 }
@@ -143,7 +143,7 @@ main{
 .main h1{
     color: white;
     position: absolute;
-    bottom: 8%;
+    bottom: -6%;
     left: 5%;
 
     max-width: 350px; 
@@ -162,7 +162,7 @@ main{
     border-radius: 20px;
     padding: 7px;
     text-align: center;
-    bottom: 30%;
+    bottom: 17%;
     position: absolute;
 }
 
@@ -175,7 +175,7 @@ main{
 }
 .main .calendar img{
 
-    margin-top: 22.5%;
+    margin-top: 30%;
 }
 
 .main .calendar{
@@ -199,7 +199,7 @@ main{
 }
 
 .sec .tags {
-    bottom: 15%;
+    bottom: 12%;
 }
 .sec #feat{
     left: 2%;
@@ -224,7 +224,7 @@ main{
 .sec h3{
     color: white;
     position: absolute;
-    bottom:4%;
+    bottom:-3%;
     padding-left: 5px;
     margin-left: 2%;
 
@@ -237,7 +237,7 @@ main{
 }
 
 .sec .calendar img{
-    margin-top: 22.5%;
+    margin-top: 30%;
 }
 
 .sec .calendar {
@@ -277,7 +277,7 @@ main{
 .third h4{
     color: white;
     position: absolute;
-    bottom: 7%;
+    bottom: -6%;
     padding-left: 5%;
 
     max-width: 80%; 
@@ -289,12 +289,12 @@ main{
 }
 
 .third .calendar img{
-    margin-top: 22.5%;
+    margin-top: 30%;
 }
 
 .third .calendar {
     position: absolute;
-    bottom: -7%;
+    bottom: -10%;
     margin-left: 5%;
     float: inline-end;
 }
@@ -304,15 +304,16 @@ main{
     float: inline-end;
 }
 .third .author{
+    font-size: x-small;
     position: absolute;
-    bottom: -9%;
+    bottom: -12%;
     color: #ffffff;
     float: inline-start;
     font-size: large;
-    margin-left: 62%;
+    margin-left: 50%;
 }
 .third .tags{
-    bottom: 25%;
+    bottom: 12%;
 }
 .third #feat {
     left: 5%;
@@ -337,7 +338,7 @@ main{
 .fourth h4{
     color: white;
     position: absolute;
-    bottom: 8%;
+    bottom: -5%;
     padding-left: 5%;
 
     max-width: 80%; 
@@ -349,12 +350,12 @@ main{
 }
 
 .fourth .calendar img{
-    margin-top: 22.5%;
+    margin-top: 30%;
 }
 
 .fourth .calendar {
     position: absolute;
-    bottom: -7%;
+    bottom: -10%;
     margin-left: 5%;
     float: inline-end;
 }
@@ -364,16 +365,17 @@ main{
     float: inline-end;
 }
 .fourth .author{
+    font-size: x-small;
     position: absolute;
-    bottom: -10%;
+    bottom: -12%;
     color: #ffffff;
     float: inline-start;
     font-size: large;
-    margin-left: 62%;
+    margin-left: 50%;
 }
 
 .fourth .tags{
-    bottom: 27%;
+    bottom: 15%;
 }
 .fourth #feat {
     left: 5%;
@@ -470,9 +472,7 @@ article{
         height: 110px;
 
 }
-.sidetile .calendar {
-    margin-top: -20%;
-}
+
 .sidetile img{
     margin-top: 2%;
     margin-left: 2%;
@@ -500,6 +500,9 @@ article{
 .calendar{
     display: inline;
 }
+.sidetile .calendar {
+    margin-top: -20%;
+}
 
 .calendar img{
     margin-top: 0%;
@@ -525,6 +528,9 @@ article{
 }
 .sidetile:hover{
     background-color:  rgb(198, 198, 198);;
+}
+.e, .h{
+    height: 100px;
 }
 .side {
     overflow-y: scroll;
