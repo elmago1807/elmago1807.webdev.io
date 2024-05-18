@@ -1,0 +1,532 @@
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@font-face {
+    font-family: a;
+    src: url(fonts/a.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(fonts/b.ttf);
+}
+
+@font-face {
+    font-family: c;
+    src: url(fonts/c.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+
+
+#head{
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid black;
+    background-color: rgb(23, 23, 23);
+    font-family: a;
+    color: white;
+}
+
+.box{
+    width: 33.33%;
+    height: auto;
+    padding: 25px;
+    border: 2px solid ;
+    background-color: rgb(75, 220, 26);
+    float: right;
+}
+
+.container {
+    background-color: aliceblue;
+}
+.sport{
+    display: inline-flex;
+}
+.drop{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: inline;
+}
+
+.drop button{
+    margin-top: 15px;
+    margin-left: -20px;
+    background-color: transparent;
+    border: none;
+}
+
+.drop a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.drop .content{
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.818);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.drop:hover .content{
+    display: inline;
+    z-index: 1;
+}
+
+.drop:hover button{
+    margin-top: 50%;
+    font-size:x-large;
+}
+.drop a:hover{
+    font-weight: bold;
+    background-color: darkgray;
+}
+.navbar{
+    margin-left: 1%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover:not(.active){
+    font-weight: bold;
+    background-color: gray;
+}
+.navbar li{
+    float: left;
+}
+.navbar a.active{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+
+.main {
+    margin-left: 2%;
+    margin-top: 10%;
+    width: 100%;
+    height: auto; 
+    position: relative;
+}
+
+.main img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.main h1{
+    color: white;
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+
+    max-width: 350px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 3.4em;
+    line-height: 1.7em;
+    
+  
+}
+
+.tags{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+    bottom: 30%;
+    position: absolute;
+}
+
+#cult {
+    left: 20%;
+}
+#feat{
+    left: 5%;
+
+}
+.main .calendar img{
+
+    margin-top: 22.5%;
+}
+
+.main .calendar{
+    position: absolute;
+    bottom: -5%;
+    margin-left: 5%;
+    float: left;
+}
+.main .calendar .day{
+    color: #ffffff;
+    float: inline-end;
+
+}
+.main .author {
+    position: absolute;
+    bottom: -7%;
+    color: #ffffff;
+    float: inline-start;
+    font-size: large;
+    margin-left: 50%;
+}
+
+.sec .tags {
+    bottom: 15%;
+}
+.sec #feat{
+    left: 2%;
+}
+.sec #cult {
+    left: 22%;
+}
+
+
+.sec {
+    width: 100%;
+    margin: 10%;
+    border-radius: 5px; 
+    position: relative;
+}
+.sec img{
+    margin-top: 5%;
+    width: 90%;
+    border-radius: 5px;
+
+}
+.sec h3{
+    color: white;
+    position: absolute;
+    bottom:4%;
+    padding-left: 5px;
+    margin-left: 2%;
+
+    max-width: 80%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 3.4em;
+    line-height: 1.7em;
+}
+
+.sec .calendar img{
+    margin-top: 22.5%;
+}
+
+.sec .calendar {
+    position: absolute;
+    bottom: -5%;
+    margin-left: 2%;
+    float: inline-end;
+}
+
+.sec .calendar h6 {
+    color: #ffffff;
+    float: inline-end;
+}
+.sec .author {
+    position: absolute;
+    bottom: -6%;
+    color: #ffffff;
+    float: inline-start;
+    font-size: large;
+    margin-left: 62%;
+}
+
+.third {
+    margin-left: 5%;
+
+    width: 100%;
+    border-radius: 5px; 
+    position: relative;
+}
+
+.third img{
+    margin-top: 11.5%;
+    width: 90%;
+    border-radius: 5px;
+
+}
+.third h4{
+    color: white;
+    position: absolute;
+    bottom: 7%;
+    padding-left: 5%;
+
+    max-width: 80%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 3.4em;
+    line-height: 1.7em;
+}
+
+.third .calendar img{
+    margin-top: 22.5%;
+}
+
+.third .calendar {
+    position: absolute;
+    bottom: -7%;
+    margin-left: 5%;
+    float: inline-end;
+}
+
+.third .calendar h6 {
+    color: #ffffff;
+    float: inline-end;
+}
+.third .author{
+    position: absolute;
+    bottom: -9%;
+    color: #ffffff;
+    float: inline-start;
+    font-size: large;
+    margin-left: 62%;
+}
+.third .tags{
+    bottom: 25%;
+}
+.third #feat {
+    left: 5%;
+}
+.third #cult {
+    left: 21%;
+}
+
+.fourth {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 5px; 
+    position: relative;
+}
+
+.fourth img{
+    width: 90%;
+    border-radius: 5px;
+
+}
+.fourth h4{
+    color: white;
+    position: absolute;
+    bottom: 8%;
+    padding-left: 5%;
+
+    max-width: 80%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 3.4em;
+    line-height: 1.7em;
+}
+
+.fourth .calendar img{
+    margin-top: 22.5%;
+}
+
+.fourth .calendar {
+    position: absolute;
+    bottom: -7%;
+    margin-left: 5%;
+    float: inline-end;
+}
+
+.fourth .calendar h6 {
+    color: #ffffff;
+    float: inline-end;
+}
+.fourth .author{
+    position: absolute;
+    bottom: -10%;
+    color: #ffffff;
+    float: inline-start;
+    font-size: large;
+    margin-left: 62%;
+}
+
+.fourth .tags{
+    bottom: 27%;
+}
+.fourth #feat {
+    left: 5%;
+}
+.fourth #cult {
+    left: 21%;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    display: inline;
+}
+
+section{
+    width: 20%;
+    float: left;
+    
+}
+
+.add {
+    width: 25%;
+    float: left;
+}
+
+article{
+    width: 25%;
+    float: left;
+}
+
+.grey {
+    margin: 0%;
+    padding: 5px;
+    background-color: rgb(198, 198, 198);
+    padding-left: 1%;
+}
+
+#br {
+    margin-top: 5px;
+    width: 15px;
+    display: inline;
+}
+#br1 {
+    margin-left: 2px;
+    display: inline;
+    font-weight: bolder;
+    font-size: medium;
+    font-family:b;
+}
+
+#br2 {
+    display: inline;
+    color: rgb(94, 94, 94);
+    margin-left: 5%;
+    font-family:c;
+    font-size: medium;
+}
+
+#br3{
+    margin-left: 800px;
+    display: inline;
+    font-weight: bolder;
+    font-size: medium;
+    font-family:c;
+}
+#br3 h3{
+    font-weight: light;
+    font-family:c;
+    color: rgb(94, 94, 94);
+}
+#search {
+    width: 15px;
+}
+#search2{
+    margin-left: 725px;
+}
+#sidebar li{
+    margin-top: 11.5%;
+    width: 50%;
+    font-family: c;
+    letter-spacing: 1.5px;
+}
+#sidebar a:hover{
+    border-radius: 5px;
+}
+#sidebar a.active{
+    border-radius: 5px;
+}
+
+.sidetile {
+        width: 100%;
+        border-radius: 5px;
+        margin-top: -7%;
+        height: 110px;
+
+}
+.sidetile .calendar {
+    margin-top: -20%;
+}
+.sidetile img{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 37%;
+    float: left;
+    border-radius: 5px;
+
+}
+
+.sidetile h4{
+    margin-top: 2%;
+    width: 60%;
+    float: right;
+    margin-right: 10px;
+
+    max-width: 55%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 3.4em;
+    line-height: 1.7em;
+
+}
+
+.calendar{
+    display: inline;
+}
+
+.calendar img{
+    margin-top: 0%;
+    width: 15px;
+    border-radius: 0px;
+    color: grey;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.calendar h6{
+    font-family: b;
+    font-size: medium;
+    color: grey;
+    margin-left: 20px;
+}
+
+.sidetile .calendar img{
+    margin-left: 5%;
+}
+
+.sidetile .calendar h6{
+    margin-left: 20%;
+}
+.sidetile:hover{
+    background-color:  rgb(198, 198, 198);;
+}
+.side {
+    overflow-y: scroll;
+    height: 430px;
+}
